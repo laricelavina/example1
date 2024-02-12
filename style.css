@@ -1,0 +1,46 @@
+h1 {
+    border: center;
+    display: grid;
+    background-color: whitesmoke;
+    width: max-content;
+    border: 1px solid black;
+    padding: 2px;
+    margin: auto;
+
+}
+body {
+    background-color: yellow;
+    font-family: Arial, sans-serif;
+}
+
+h2{.post h2 {
+    margin-top: 0;
+}
+
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+.post {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.938);
+}
+.post h2 {
+    margin-top: 0;
+}
+.post p {
+    margin-bottom: 20px;
+}
+.read-more {
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+}
+.read-more:hover {
+    text-decoration: underline;
+}
